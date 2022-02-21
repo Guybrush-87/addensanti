@@ -21,7 +21,7 @@ st.set_page_config(
 
 st.title('Addensanti e gelato')
 st.header('Effetti sulla viscosità e sull\'overrun')
-st.subheader('Sono state preparati 10 diversi tipi di miscele ternarie contenenti farina di semi di carrube (FSC), gomma di Tara e gomma di guar.Come approccio per la raccolta dei dati è stato utilizzato un mixture design di tipo simplex lattice')
+st.subheader('Sono state preparati 10 diversi tipi di miscele ternarie contenenti farina di semi di carrube (FSC), gomma di tara e gomma di guar. \nCome approccio per la raccolta dei dati è stato utilizzato un mixture design di tipo simplex lattice')
 
 
 df=pd.read_excel('Addensanti_py.xlsx')

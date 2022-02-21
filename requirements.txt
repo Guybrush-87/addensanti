@@ -1,5 +1,6 @@
 imageio
 imagesize
+matplotlib
 numpy
 openpyxl
 pandas

@@ -69,6 +69,8 @@ pca_ = pd.DataFrame(pca_df,index=nomi,columns=('viscosità','overrun'))
 
 fig = plt.figure()
 plt.scatter(pca_.viscosità,pca_.overrun)
+plt.xlabel('Viscosità')
+plt.ylabel('Overrun')
 
 X=pca_.loc[:,'viscosità']
 Y=pca_.loc[:,'overrun']

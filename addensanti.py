@@ -68,6 +68,6 @@ pca_df=preprocessing.scale(pca_df)
 pca_ = pd.DataFrame(pca_df,index=nomi,columns=('viscosità','overrun'))
 
 st.table(pca_)
-st.plotly_chart(pca_.plot.scatter(x=pca_['viscosità'],y=pca_['overrun']))
+st.plotly_chart(pca_.scatter(pca_['viscosità'],pca_['overrun']))
 
 

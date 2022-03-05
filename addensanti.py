@@ -72,6 +72,6 @@ df1 = pd.DataFrame({'x': [1, 3, 3, 4, 5, 7, 9, 12, 13, 15],
                    'y': [5, 7, 9, 7, 6, 12, 14, 18, 15, 22]})
 
 
-st.plotly_chart(plt.scatter(pca_.viscosità,pca_.overrun))
+st.plotly_chart(plt.scatter(df1.x, df1.y))
 
 

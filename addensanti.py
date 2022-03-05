@@ -78,6 +78,9 @@ Y=pca_.loc[:,'overrun']
 for i,label in enumerate(nomi):
     plt.annotate(label, (X[i], Y[i]))
 
+st.title('')
+st.subheader('Grafico riassuntivo')
+
 st.pyplot(fig)
 
 

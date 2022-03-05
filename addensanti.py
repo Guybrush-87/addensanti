@@ -68,10 +68,9 @@ pca_df=preprocessing.scale(pca_df)
 pca_ = pd.DataFrame(pca_df,index=nomi,columns=('viscosità','overrun'))
 
 
-df1 = pd.DataFrame({'x': [1, 3, 3, 4, 5, 7, 9, 12, 13, 15],
-                   'y': [5, 7, 9, 7, 6, 12, 14, 18, 15, 22]})
 
 
-st.map(pca_)
+
+
 
 

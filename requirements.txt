@@ -9,3 +9,4 @@ plotly==5.6.0
 streamlit==1.5.1
 sklearn
 scikit-image
+click==7.1.2
